@@ -5,7 +5,7 @@
 "dataUrl": "Ball.data.unityweb",
 "wasmCodeUrl": "Ball.wasm.code.unityweb",
 "wasmFrameworkUrl": "Ball.wasm.framework.unityweb",
-"graphicsAPI": ["WebGL 2.0"],
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
 "splashScreenStyle": "Dark",
 "backgroundColor": "#231F20",
