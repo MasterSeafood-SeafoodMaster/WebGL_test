@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Anti_A_Car_WebGL",
+"productVersion": "0.1",
+"dataUrl": "Anti_A_Car_WebGL.data.unityweb",
+"wasmCodeUrl": "Anti_A_Car_WebGL.wasm.code.unityweb",
+"wasmFrameworkUrl": "Anti_A_Car_WebGL.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#232323",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.10f1"
+}
