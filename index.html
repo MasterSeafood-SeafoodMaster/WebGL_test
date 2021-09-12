@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Anti_A_Car_WebGL</title>
+    <title>%UNITY_WEB_NAME%</title>
     <style>
       html {
         box-sizing: border-box;
@@ -87,7 +87,6 @@
       }
 
     </style>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -97,16 +96,11 @@
       <div class="spinner"></div>
       <div class="progress"><div class="full"></div></div>
     </div>
- <script>
-setTimeout(function(){
-$("#gameContainer").find("button").click();
-}, 500);
-</script>
   </body>
 
-  <script src="Build/UnityLoader.js"></script>
+  <script src="%UNITY_WEBGL_LOADER_URL%"></script>
   <script>
-  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Anti_A_Car_WebGL.json", {onProgress: UnityProgress});
+  var gameInstance = UnityLoader.instantiate("gameContainer", "%UNITY_WEBGL_BUILD_URL%", {onProgress: UnityProgress});
   function UnityProgress(gameInstance, progress) {
     if (!gameInstance.Module) {
       return;
